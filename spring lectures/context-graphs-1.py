@@ -10,8 +10,7 @@ from pydantic import BaseModel, Field
 from typing import List
 
 # --- Config ---
-LLAMAPARSE_KEY = "llx-vPdshEiDDZzobogmsrAXdWjIwy3p2IxCGpsrlVixAOaYOYz4"
-GEMINI_API_KEY = "AIzaSyCh-_i-LcKIFgTLvWdhjtYPnnWBJk_B1o4"
+
 URI = "neo4j://127.0.0.1:7687"
 AUTH = ("neo4j", "demodemo")
 PDF_PATH = "open-ceremony.pdf"
