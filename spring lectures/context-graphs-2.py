@@ -3,7 +3,7 @@ from google import genai
 from pydantic import BaseModel, Field
 
 # --- Config ---
-GEMINI_API_KEY = "AIzaSyCh-_i-LcKIFgTLvWdhjtYPnnWBJk_B1o4"
+
 URI = "neo4j://127.0.0.1:7687"
 AUTH = ("neo4j", "demodemo")
 
